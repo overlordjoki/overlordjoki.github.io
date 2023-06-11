@@ -48,6 +48,92 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Service
+--------------------------------------------------------------*/
+#service {
+  width: 90%;
+  margin: auto;
+}
+
+#service {
+  opacity: 0;
+  transform: translateY(100px);
+  animation-name: masuk;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes masuk {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#service p {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+#service img {
+  width: 82%;
+  margin-left: 9%;
+}
+
+#service a {
+  display: block;
+  width: 66%;
+  color: black;
+  background-color: rgb(40, 182, 40);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  text-align: center;
+  margin: 20px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#service a:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+#left {
+  float: left;
+  width: 50%;
+}
+
+#left-top {
+  margin-bottom: 100px;
+}
+
+#left-bottom {
+}
+
+#right {
+  float: right;
+  width: 50%;
+}
+
+#right-top {
+  margin-bottom: 100px;
+}
+
+#right-bottom {
+}
+
+
+/*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
 section {
@@ -66,6 +152,14 @@ section {
 
 .section-header p {
   margin-bottom: 0;
+}
+
+.img-fluid {
+  border: 2.5px solid white;
+}
+
+.d-block {
+  letter-spacing: 1px;
 }
 
 /*--------------------------------------------------------------
