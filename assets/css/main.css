@@ -48,6 +48,51 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Responsive (Mobile/Smartphone) >> 1080px & 720px
+--------------------------------------------------------------*/
+@media (max-width: 1080px) and (max-width: 720px) {
+  #header {
+    height: 70px;
+  }
+
+  #header .logo img {
+    width: 12%;
+    margin-right: 12px;
+  }
+
+  #header .logo h1 {
+    font-size: 20px;
+  }
+
+  #main #service p {
+    font-size: 25px;
+    font-weight: normal;
+  }
+
+  #service #left {
+    float: left;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  #service #right {
+    float: left;
+    width: 100%;
+  }
+
+  #main #service img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #main #service a {
+    width: 55%;
+    font-size: 18px;
+    font-weight: normal;
+  }
+}
+
+/*--------------------------------------------------------------
 # Service
 --------------------------------------------------------------*/
 #service {
